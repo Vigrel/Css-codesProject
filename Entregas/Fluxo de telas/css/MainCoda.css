@@ -1,0 +1,43 @@
+html {
+    background-color: rgb(209, 209, 209);
+}
+
+
+header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    border-bottom: .2rem solid whitesmoke;
+    background-color: white;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    box-shadow: .2rem .2rem .2rem rgb(126, 122, 122);
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: red;
+    
+}
+
+h1{
+    /* flex-grow: 2; */
+    margin: 5rem;
+    border: 1rem;
+}
+
+a {
+    /* flex-grow: 1; */
+    margin: .3rem;
+    border: .2rem solid black; 
+    border-radius: .5rem;
+    background-color: white;
+    padding:.5rem;
+    
+}
