@@ -1,7 +1,11 @@
 html {
     background-color: rgb(209, 209, 209);
+    height:100%
 }
 
+body {
+    height: 100%;
+}
 
 header {
     position: relative;
@@ -14,30 +18,45 @@ header {
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
     box-shadow: .2rem .2rem .2rem rgb(126, 122, 122);
+    font-size: 2rem;
 }
-
 
 main {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    background-color: red;
-    
+    height: 100%;
 }
 
-h1{
-    /* flex-grow: 2; */
-    margin: 5rem;
-    border: 1rem;
+.Texto {
+    font-size: 3rem;
+    text-align: center;
+    padding: 2rem;
+    height: 10%;
+}
+
+.Opcoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 15%;
 }
 
 a {
-    /* flex-grow: 1; */
-    margin: .3rem;
-    border: .2rem solid black; 
-    border-radius: .5rem;
-    background-color: white;
-    padding:.5rem;
-    
+    font-size: 2rem;
+    text-align: center;
+    padding-right: 20%;
+    padding-left: 20%;
+    background-color: red;
+    opacity: 50%;
+    border: .1rem solid red;
+    border-radius: .8rem;
+    text-decoration: none;
+    color:white;
+    transition: 0.8s;
+    cursor: pointer;
+    box-shadow: .5rem .5rem .5rem rgb(126, 122, 122);
+}
+
+a:hover {
+    opacity: 100%;
+    transition: 0.5s;
 }
