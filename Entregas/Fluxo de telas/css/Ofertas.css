@@ -1,0 +1,45 @@
+html {
+    background-color: rgb(209, 209, 209);
+    height:100%
+}
+
+body {
+    height: 100%;
+}
+
+header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    border-bottom: .2rem solid whitesmoke;
+    background-color: white;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    box-shadow: .2rem .2rem .2rem rgb(126, 122, 122);
+    font-size: 2rem;
+}
+
+main {
+    height: 100%;
+}
+
+img{
+    margin: 3rem;
+    display: flex;
+    border-radius: 2rem;
+}
+a{
+ 
+}
+
+p{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: .5rem;
+    margin-left: 1rem;
+    font-size: 1.2rem;
+}

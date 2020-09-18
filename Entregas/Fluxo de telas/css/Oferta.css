@@ -1,0 +1,58 @@
+html {
+    background-color: rgb(209, 209, 209);
+    height:100%
+}
+
+body {
+    height: 100%;
+}
+
+header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    border-bottom: .2rem solid whitesmoke;
+    background-color: white;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    box-shadow: .2rem .2rem .2rem rgb(126, 122, 122);
+    font-size: 2rem;
+}
+
+main {
+    height: 100%;
+
+}
+
+img{
+    margin:10%;
+
+    position: relative;
+    align-self: center;
+    border-radius: 2rem;
+    border: .5rem solid #ddd;
+    /* padding: .2rem; */
+   
+}
+div{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+h2 {
+    margin: 2rem;
+    font-size: 2rem;
+    border-bottom: .2rem  solid black;
+    padding-bottom: .2rem;
+}
+
+p{
+    align-self: center ;
+}
+
+form{
+    text-align: center;
+    margin: 2rem;
+} 
