@@ -1,0 +1,77 @@
+/* Esta parte do código foi inteiramente baseada no seguinte link:
+ https://www.w3schools.com/howto/howto_css_chat.asp*/
+
+html {
+    background-color: rgb(209, 209, 209);
+    height:100%
+}
+
+body {
+    height: 100%;
+}
+
+header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    border-bottom: .2rem solid whitesmoke;
+    background-color: white;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    box-shadow: .2rem .2rem .2rem rgb(126, 122, 122);
+    font-size: 2rem;
+}
+
+.container {
+    border: .2rem solid rgba(255, 0, 0, 0.4);
+    background-color: rgba(255, 0, 0, 0.3);
+    box-shadow: .2rem .2rem .2rem rgb(126, 122, 122);
+    border-radius: .5rem;
+    padding: .6rem;
+    margin: .6rem 0;
+}
+  
+.darker {
+    border-color: rgba(128, 128, 128, 0.4);
+    background-color: rgba(255, 255, 255, 0.87);
+    box-shadow: .2rem .2rem .2rem rgb(126, 122, 122);
+}
+
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+  
+
+.container img {
+    float: left;
+    max-width: 3.8rem;
+    width: 100%;
+    margin-right: 2rem;
+    border-radius: 50%;
+}
+  
+
+.container img.right {
+    float: right;
+    margin-left: 2rem;
+    margin-right:0;
+}
+  
+
+.time-right {
+    float: right;
+    color: black;
+}
+  
+
+.time-left {
+    float: left;
+    color: rgba(128, 128, 128, 0.4);
+}
+p{
+    margin-top: 1.5rem;
+}
