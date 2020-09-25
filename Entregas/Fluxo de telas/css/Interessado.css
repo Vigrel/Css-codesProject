@@ -1,5 +1,5 @@
 html {
-    background-color: rgb(209, 209, 209);
+    background-color:#C2C2C4;
     height:100%;
     font-family: 'Poppins', sans-serif;
 }
@@ -14,12 +14,13 @@ header {
     justify-content: center;
     align-items: center;
     height: 4rem;
-    border-bottom: .2rem solid whitesmoke;
-    background-color: white;
+    border-bottom: .2rem solid #3B3B3D;
+    background-color:#ff8400;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
     box-shadow: .2rem .2rem .2rem rgb(126, 122, 122);
     font-size: 2rem;
+    font-weight: bold;
 }
 
 main {
@@ -28,6 +29,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    background-color:#C2C2C4;
 }
 
 div{
@@ -37,7 +39,7 @@ div{
     margin-top: 1rem;
     margin-left: .5rem;
     margin-right: .5rem;
-    background-color: whitesmoke;
+    background-color: white;
     border-radius: 1rem;
 }
 
@@ -60,11 +62,11 @@ a{
     font-weight: bold;
     align-self: center;
     justify-self: right;
-    border: .1rem solid rgb(121, 253, 121);
+    border: .1rem solid  #00CC1F;
     border-radius: .5rem;
     padding: .2rem;
     margin-left: 1.5rem;
-    background-color: rgb(121, 253, 121);
+    background-color:  #00CC1F;
     text-decoration: none;
     color: white;
 }

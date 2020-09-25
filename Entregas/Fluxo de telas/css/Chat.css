@@ -2,7 +2,7 @@
 https://www.w3schools.com/howto/howto_css_chat.asp*/
 
 html {
-    background-color: rgb(209, 209, 209);
+    background-color: #C2C2C4;
     height:100%;
 }
 
@@ -18,17 +18,18 @@ header {
     justify-content: center;
     align-items: center;
     height: 4rem;
-    border-bottom: .2rem solid whitesmoke;
-    background-color: white;
+    border-bottom: .2rem solid #3B3B3D;
+    background-color: #FF8400;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
     box-shadow: .2rem .2rem .2rem rgb(126, 122, 122);
     font-size: 2rem;
+    font-weight: bold;
 }
 
 .container {
-    border: .2rem solid rgba(255, 0, 0, 0.4);
-    background-color: rgba(255, 0, 0, 0.3);
+    border: .2rem solid #3B3B3D;
+    background-color: white;
     box-shadow: .2rem .2rem .2rem rgb(126, 122, 122);
     border-radius: .5rem;
     padding: .6rem;
@@ -36,8 +37,8 @@ header {
 }
   
 .darker {
-    border-color: rgba(128, 128, 128, 0.4);
-    background-color: rgba(255, 255, 255, 0.87);
+    border-color:#3B3B3D;
+    background-color:#00cc1f79;
     box-shadow: .2rem .2rem .2rem rgb(126, 122, 122);
 }
 
@@ -72,7 +73,7 @@ header {
 
 .time-left {
     float: left;
-    color: rgba(128, 128, 128, 0.4);
+    color: #3B3B3D;
 }
 p{
     margin-top: 1.5rem;

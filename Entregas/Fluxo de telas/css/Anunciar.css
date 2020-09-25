@@ -1,5 +1,5 @@
 html {
-    background-color: rgb(209, 209, 209);
+    background-color: #C2C2C4;
     height:100%;
     width: 100%;
     font-family: 'Poppins', sans-serif;
@@ -16,12 +16,13 @@ header {
     justify-content: center;
     align-items: center;
     height: 4rem;
-    border-bottom: .2rem solid whitesmoke;
-    background-color: white;
+    border-bottom: .2rem solid #3B3B3D;
+    background-color: #ff8400;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
     box-shadow: .2rem .2rem .2rem rgb(126, 122, 122);
     font-size: 2rem;
+    font-weight: bold;
 }
 
 main {
@@ -31,6 +32,7 @@ main {
     justify-content: flex-start;
     height: 100%;
     width: 100%;
+    background-color:#C2C2C4;
 }
 
 label {
@@ -42,9 +44,9 @@ label {
     margin-top: 1.5rem;
     font-size: 1.3rem;
     text-align: center;
-    background-color: red;
+    background-color: #3B3B3D;
     opacity: 50%;
-    border: .1rem solid red;
+    border: .1rem solid #3B3B3D;
     border-radius: .8rem;
     text-decoration: none;
     color:white;
@@ -82,9 +84,9 @@ a {
     width: 5rem;
     font-size: 1rem;
     text-align: center;
-    background-color: red;
+    background-color: #3B3B3D;
     opacity: 50%;
-    border: .1rem solid red;
+    border: .1rem solid #3B3B3D;
     border-radius: .8rem;
     text-decoration: none;
     color:white;
