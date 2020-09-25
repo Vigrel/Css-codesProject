@@ -3,14 +3,16 @@ https://www.w3schools.com/howto/howto_css_chat.asp*/
 
 html {
     background-color: rgb(209, 209, 209);
-    height:100%
+    height:100%;
 }
 
 body {
+    font-family: 'Baskervville', serif;
     height: 100%;
 }
 
 header {
+    font-family: 'Poppins', sans-serif;
     position: relative;
     display: flex;
     justify-content: center;

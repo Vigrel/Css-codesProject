@@ -2,6 +2,7 @@ html {
     background-color: rgb(209, 209, 209);
     height:100%;
     width: 100%;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -24,6 +25,7 @@ header {
 }
 
 main {
+    font-family: 'Open Sans', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -32,6 +34,8 @@ main {
 }
 
 label {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
     display: block;
     margin-right: 20%;
     margin-left: 20%;
@@ -45,13 +49,7 @@ label {
     text-decoration: none;
     color:white;
     transition: 0.8s;
-    cursor: pointer;
     box-shadow: .5rem .5rem .5rem rgb(126, 122, 122);
-}
-
-label:hover {
-    opacity: 100%;
-    transition: 0.5s;
 }
 
 .upload {
@@ -70,11 +68,16 @@ label:hover {
     text-align: center; 
 }
 
-form {
+.Compartilhar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     margin-right: 30%;
     margin-left: 30%;
     margin-top: 1rem;
     font-size: .8rem;
-    text-align: center; 
 }
-  
+
+input {
+    cursor: pointer;
+}

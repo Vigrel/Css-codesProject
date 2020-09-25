@@ -2,6 +2,7 @@ html {
     background-color: rgb(209, 209, 209);
     height:100%;
     width: 100%;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -37,6 +38,7 @@ img{
 }
 
 p{
+    font-family: 'Open Sans', sans-serif;
     margin-bottom: 1rem;
     margin-left: .5rem;
     margin-right: .5rem;
@@ -47,6 +49,8 @@ p{
 }
 
 a {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
     display: block;
     margin-right: 20%;
     margin-left: 20%;

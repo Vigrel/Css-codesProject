@@ -1,6 +1,7 @@
 html {
     background-color: rgb(209, 209, 209);
-    height:100%
+    height:100%;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -22,6 +23,7 @@ header {
 }
 
 main {
+    font-family: 'Open Sans', sans-serif;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -48,6 +50,8 @@ p{
 }
 
 a{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
     align-self: center;
     border: .1rem solid black;
     border-radius: .5rem;
