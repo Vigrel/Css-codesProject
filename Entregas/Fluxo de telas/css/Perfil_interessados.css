@@ -30,9 +30,14 @@ main {
 .Texto {
     font-family: 'Poppins', sans-serif;
     margin: 4%;
-    font-size: 3rem;
-    text-decoration: underline;
+    font-size: 2.5rem;
+    /* text-decoration: underline; */
     padding-bottom: .2rem;
+    background-color: rgba(255, 0, 0, .5);
+    color: white;
+    text-align: center;
+    border-radius: 1rem;
+
 }
 
 .Perguntas {
@@ -46,22 +51,16 @@ main {
 .Respostas {
     font-size: 1rem;
     padding-right: 10%;
-    padding-left: 2.5%;
+    padding-left: 1%;
     margin: .2rem 0 2rem 2rem;
     background-color: white;
-    opacity: 30%;
-    border: .05rem solid red;
+    opacity: 80%;
+    border: .05rem solid white;
     border-radius: .2rem;
     text-decoration: none;
     color:black;
     transition: 0.8s;
     cursor: pointer;
-    box-shadow: .5rem .5rem .5rem rgb(126, 122, 122);
-}
-
-.Respostas:hover {
-    opacity: 100%;
-    transition: 0.5s;
 }
 
 input::placeholder{
@@ -88,7 +87,6 @@ div{
     margin-bottom: 2rem;
     align-items: center;
     cursor: pointer;
-    box-shadow: .5rem .5rem .5rem rgb(126, 122, 122);
 }
 
 a {
