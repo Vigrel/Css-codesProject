@@ -1,0 +1,95 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: #d9d9d9;
+}
+
+header {
+    width: 100%;
+    border-bottom: solid  rgb(6, 162, 6) .1rem;
+}
+
+.comprimentos {
+    padding-left: 1rem;
+    padding-bottom: .5rem;
+    padding-top: 1rem;
+    font-size: 2rem;
+}
+
+.Video {
+    width: 100%;
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.tituloCurso {
+    margin-left: 1rem;
+    padding: .3rem;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    border-radius: 1rem;
+    background-color: white;
+    text-align: center;
+}
+
+iframe {
+    margin-top: .5rem;
+}
+
+.combinacao {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.titulo-combinacao {
+    margin-left: 1rem;
+    padding: .3rem;
+    font-size: 1.4rem;
+    margin-right: 1rem;
+    border-radius: 1rem;
+    background-color: rgb(6, 162, 6);
+    color: white;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.slide {
+    margin-left: .5rem;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto; 
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.ofertas {
+    margin-left: .5rem;
+    margin-right: .5rem;
+    padding: 2rem;
+    font-size: 1.4rem;
+    border-radius: 1rem;
+    background-color: white;
+    text-align: center;
+}
+
+.grid-container {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    overflow-x: auto; 
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.grid-item {
+    margin: .3rem .5rem .3rem .5rem ;
+    padding: .5rem .8rem .5rem .8rem;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    background-color: white;
+    text-align: center;
+}
