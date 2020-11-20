@@ -41,8 +41,8 @@ iframe {
 .combinacao {
     display: flex;
     flex-direction: column;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
+    margin-bottom: .7rem;
+    margin-top: .7rem;
 }
 
 .titulo-combinacao {
@@ -75,6 +75,11 @@ iframe {
     text-align: center;
 }
 
+.img-oferta {
+    height: 5rem;
+    width: 5rem;
+}
+
 .grid-container {
     display: inline-grid;
     grid-template-columns: auto auto auto;
@@ -92,4 +97,21 @@ iframe {
     border-radius: 1rem;
     background-color: white;
     text-align: center;
+}
+
+.navbar {
+    border-radius: 1rem 1rem 0 0;
+    height: 3rem;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    align-self: center;
+    font-size: 1.3rem;
 }
