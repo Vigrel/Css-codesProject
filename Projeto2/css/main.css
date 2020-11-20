@@ -1,12 +1,15 @@
 html, body {
     height: 100%;
     width: 100%;
-    background-color: #d9d9d9;
+    background-color: #5EFF87;
 }
 
 header {
     width: 100%;
-    border-bottom: solid  rgb(6, 162, 6) .1rem;
+    background-color: #DB3B45;
+    border-bottom: solid #8F0A12 .2rem;
+    border-bottom-left-radius: .5rem;
+    border-bottom-right-radius: .5rem;
 }
 
 .comprimentos {
@@ -50,8 +53,9 @@ iframe {
     padding: .3rem;
     font-size: 1.4rem;
     margin-right: 1rem;
+    border: solid #3BDB63 .2rem;
     border-radius: 1rem;
-    background-color: rgb(6, 162, 6);
+    background-color: #188F36;
     color: white;
     text-align: center;
     margin-bottom: 1rem;
