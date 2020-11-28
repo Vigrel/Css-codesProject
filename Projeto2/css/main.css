@@ -1,26 +1,4 @@
-html, body {
-    height: 100%;
-    width: 100%;
-    background-color: #FFF2EFE4;
-}
-
-header {
-    width: 100%;
-    background-color: #D9765F;
-    border-bottom: solid #D9765F .2rem;
-    border-bottom-left-radius: .5rem;
-    border-bottom-right-radius: .5rem;
-    color: white;
-}
-
-.comprimentos {
-    padding-left: 1rem;
-    padding-bottom: .5rem;
-    padding-top: 1rem;
-    font-size: 2rem;
-}
-
-.Video {
+div.Video {
     width: 100%;
     margin-top: .5rem;
     margin-bottom: 1rem;
@@ -28,7 +6,7 @@ header {
     flex-direction: column;
 }
 
-.tituloCurso {
+div.Video h1 {
     margin-left: 1rem;
     padding: .3rem;
     font-size: 1.5rem;
@@ -50,7 +28,7 @@ iframe {
     margin-top: .7rem;
 }
 
-.titulo-combinacao {
+div.combinacao h1.titulo {
     margin-left: 1rem;
     padding: .3rem;
     font-size: 1.4rem;
@@ -61,7 +39,7 @@ iframe {
     text-align: center;
     margin-bottom: 1rem;
 }
-.slide {
+div.slide {
     margin-left: .5rem;
     display: flex;
     flex-direction: row;
@@ -70,7 +48,7 @@ iframe {
     box-sizing: border-box;
 }
 
-.ofertas {
+a.ofertas {
     margin-left: .5rem;
     margin-right: .5rem;
     padding: 2rem;
@@ -79,14 +57,16 @@ iframe {
     background-color: white;
     text-align: center;
     box-shadow: .1rem .1rem .1rem bisque;
+    text-decoration: none;
+    color: black;
 }
 
-.img-oferta {
+img.img-oferta {
     height: 5rem;
     width: 5rem;
 }
 
-.grid-container {
+/* .grid-container {
     display: inline-grid;
     grid-template-columns: auto auto auto;
     margin-left: 1rem;
@@ -103,25 +83,4 @@ iframe {
     border-radius: 1rem;
     background-color: white;
     text-align: center;
-}
-
-nav {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    border-radius: 1rem 1rem 0 0;
-    height: 3rem;
-    background-color: white;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-content: center;
-
-}
-
-a {
-    text-decoration: none;
-    color: black;
-    align-self: center;
-    font-size: 1.3rem;
-}
+} */

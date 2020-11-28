@@ -1,0 +1,41 @@
+html, body, main {
+    height: 100%;
+    width: 100%;
+    background-color: #FFF2EFE4;
+}
+
+header {
+    width: 100%;
+    background-color: #D9765F;
+    border-bottom: solid #D9765F .2rem;
+    border-bottom-left-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+    color: white;
+}
+
+header h1 {
+    padding-left: 1rem;
+    padding-bottom: .5rem;
+    padding-top: 1rem;
+    font-size: 2rem;
+}
+
+nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+    height: 7%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+}
+
+a.navbar {
+    text-decoration: none;
+    color: black;
+    align-self: center;
+    font-size: 1.3rem;
+}

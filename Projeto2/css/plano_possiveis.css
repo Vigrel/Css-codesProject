@@ -1,0 +1,52 @@
+header h1 {
+    text-align: center;
+}
+
+div.planos {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    margin: 1rem;
+    background-color: #FFF2EFE4;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+div.plano {
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    box-shadow: 0.1rem 0.1rem 0.1rem grey;
+    border-radius: .5rem;
+    margin: .6rem;
+    padding: 1rem;
+}
+
+div.plano h1 {
+    align-self: center;
+    padding: .6rem;
+    font-size: 1.4rem;
+    border-radius: 1rem;
+    background-color: #56593F;
+    color: white;
+    text-align: center;
+    margin-bottom: .6rem;
+}
+
+div.plano p {
+    align-self: center;
+    opacity: 70%;
+    margin-bottom: 1rem;
+}
+
+div.plano a {
+    align-self: center;
+    padding: .2rem 1rem .2rem 1rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+    background-color: #A69D72;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+

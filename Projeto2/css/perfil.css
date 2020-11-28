@@ -1,0 +1,58 @@
+header h1 {
+    text-align: center;
+}
+
+div.dados-pessoa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: .5rem;
+}
+
+div.dados-jardim {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: .5rem;
+}
+
+div h1 {
+    align-self: center;
+    padding: .2rem 1rem .2rem 1rem;
+    font-size: 1.3rem;
+    border-radius: 1rem;
+    background-color: #56593F;
+    color: white;
+    text-align: center;
+}
+
+div.dados-geral {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: .5rem;
+    margin: .5rem;
+    padding: .5rem;
+    box-shadow: 0.1rem 0.1rem 0.1rem grey;
+}
+
+div.dados {
+    display: flex;
+    flex-direction: column;
+    margin: .4rem 0 .4rem 0;
+}
+
+div.dados label.titulo {
+    align-self: center;
+    margin-bottom: .5rem;
+    font-size: 1.2rem;
+    border-radius: .5rem;
+    background-color: #A69D72;
+    color: white;
+    padding: .2rem 1rem .2rem 1rem;
+}
+
+div.dados label.opcoes {
+    align-self: center;
+    font-size: 1.1rem;
+}

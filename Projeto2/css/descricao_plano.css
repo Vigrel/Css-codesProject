@@ -1,0 +1,66 @@
+header h1 {
+    text-align: center;
+}
+
+div.conteudo {
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    height: 15rem;
+    width: 20rem;
+    display:block;
+    border-radius: 1.5rem;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+div.descricao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+div.descricao h1 {
+    align-self: center;
+    padding: .2rem 1rem .2rem 1rem;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    background-color: #56593F;
+    color: white;
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    margin: 1rem;
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0.1rem 0.1rem 0.1rem grey;
+}
+
+li {
+    margin: .5rem 0 .5rem 0;
+    font-size: 1.1rem;
+}
+
+div.compra {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+div.compra a {
+    padding: .5rem 1rem .5rem 1rem;
+    border-radius: 1rem;
+    background-color: #A69D72;
+    font-size: 1.1rem;
+    color: white;
+    text-decoration: none;
+}
