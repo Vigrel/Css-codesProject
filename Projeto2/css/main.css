@@ -40,6 +40,7 @@ div.combinacao h1.titulo {
     margin-bottom: 1rem;
 }
 div.slide {
+    font-family: 'IBM Plex Serif', serif;
     margin-left: .5rem;
     display: flex;
     flex-direction: row;
@@ -65,22 +66,3 @@ img.img-oferta {
     height: 5rem;
     width: 5rem;
 }
-
-/* .grid-container {
-    display: inline-grid;
-    grid-template-columns: auto auto auto;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    overflow-x: auto; 
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-.grid-item {
-    margin: .3rem .5rem .3rem .5rem ;
-    padding: .5rem .8rem .5rem .8rem;
-    font-size: 1.2rem;
-    border-radius: 1rem;
-    background-color: white;
-    text-align: center;
-} */

@@ -53,6 +53,7 @@ div.dados label.titulo {
 }
 
 div.dados label.opcoes {
+    font-family: 'IBM Plex Serif', serif;
     align-self: center;
     font-size: 1.1rem;
 }

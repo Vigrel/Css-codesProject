@@ -3,6 +3,7 @@ header h1 {
 }
 
 ul {
+    font-family: 'IBM Plex Serif', serif;
     display: flex;
     flex-direction: column;
     justify-content:flex-start;

@@ -1,16 +1,21 @@
-html, body, main {
+body{
     height: 100%;
     width: 100%;
     background-color: #FFF2EFE4;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
     width: 100%;
+    top: 0;
+    height: 3rem;
     background-color: #D9765F;
     border-bottom: solid #D9765F .2rem;
     border-bottom-left-radius: .5rem;
     border-bottom-right-radius: .5rem;
-    color: white;
+    color: #FFF2EFE4;
 }
 
 header h1 {
@@ -20,22 +25,30 @@ header h1 {
     font-size: 2rem;
 }
 
+main{
+    margin-bottom: 4rem;
+    width: 100%;
+    height: 100%;
+}
+
 nav {
     position: fixed;
     bottom: 0;
+    height: 2.5rem;
+    padding: 0.5rem 0 0.5rem 0;
     width: 100%;
-    border-radius: 1rem 1rem 0 0;
-    height: 7%;
-    background-color: white;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-content: center;
+    background-color: #5D5C68;
+    border-radius: 1rem 1rem 0 0;
+    border: solid #D9765F 0.1rem;
 }
 
 a.navbar {
     text-decoration: none;
-    color: black;
+    color: #FFF2EFE4;
     align-self: center;
     font-size: 1.3rem;
 }
