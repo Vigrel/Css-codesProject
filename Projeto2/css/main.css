@@ -14,7 +14,7 @@ div.Video h1 {
     border-radius: 1rem;
     background-color: #56593F;
     text-align: center;
-    color: white;
+    color: #FFF2EFE4;
 }
 
 iframe {
@@ -35,7 +35,7 @@ div.combinacao h1.titulo {
     margin-right: 1rem;
     border-radius: 1rem;
     background-color: #56593F;
-    color: white;
+    color: #FFF2EFE4;
     text-align: center;
     margin-bottom: 1rem;
 }
